@@ -5,7 +5,7 @@ delta = b ** 2 - 4 * a * c
 
 if a == 0 or delta < 0:
     print("Impossivel calcular")
-    exit()
+    quit()
 
 r1 = (-b + sqrt(delta)) / (2 * a)
 r2 = (-b - sqrt(delta)) / (2 * a)
